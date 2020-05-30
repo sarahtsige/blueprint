@@ -1,0 +1,60 @@
+nav {
+  background-color: #38a6e8;
+  height: 130px;
+}
+ul {
+  list-style: none;
+  float: right;
+  margin-right: 250px;
+  margin-top: 40px;
+}
+
+li {
+  display: inline;
+  margin: 0px 10px 0px 10px;
+}
+
+.logo {
+  height: 80%;
+  float: left;
+  margin-left: 100px;
+  margin-top: 15px;
+}
+
+.donate {
+  padding: 10px 20px 10px 20px;
+  background-color: #f65151;
+  border-color: #f65151;
+  color: white;
+  font-size: 20px;
+  border-radius: 8px;
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 900;
+}
+.dollar-icon {
+  margin-top: 5px;
+  vertical-align: middle;
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    height: 260px;
+    text-align: center;
+  }
+  .logo {
+    height: 40%;
+    float: none;
+    margin-left: 0;
+  }
+  ul {
+    float: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  li {
+    display: block;
+  }
+  .donate {
+    width: 100%;
+  }
+}
